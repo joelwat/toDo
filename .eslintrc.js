@@ -46,6 +46,13 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'prefer-promise-reject-errors': 'off',
 
+    'key-spacing': [
+      'error',
+      {
+        align: 'colon',
+      },
+    ],
+
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
